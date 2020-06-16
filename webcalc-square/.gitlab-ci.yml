@@ -1,0 +1,24 @@
+image: maven:latest
+
+stages:
+  - test
+  - docker
+
+cache:
+  paths:
+    - target/
+
+test:
+  stage: test
+  script:
+    - mvn test
+
+docker:
+  stage: docker
+  tags:
+    - shell
+  script:
+    - docker login registry.hal.davecutting.uk -u $username -p $password
+    - docker build -t registry.hal.davecutting.uk/40173800/webcalc-square .
+    - docker push registry.hal.davecutting.uk/40173800/webcalc-square
+

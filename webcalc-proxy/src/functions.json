@@ -1,0 +1,10 @@
+{"functions":
+  {
+    "add": "http://add.40173800.qpc.hal.davecutting.uk",
+    "sub": "http://subtract.40173800.qpc.hal.davecutting.uk",
+    "div": "http://divide.40173800.qpc.hal.davecutting.uk/",
+    "mul": "http://multiply.40173800.qpc.hal.davecutting.uk/",
+    "mod": "http://modulo.40173800.qpc.hal.davecutting.uk",
+    "sqr": "http://square.40173800.qpc.hal.davecutting.uk/"
+  }
+}

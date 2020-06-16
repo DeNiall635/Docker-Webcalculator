@@ -1,0 +1,24 @@
+image: ubuntu:18.04
+
+stages:
+    - test
+    - docker
+    
+test:
+    stage: test
+    script:
+    - apt-get update -y
+    - apt-get install -y python3-pip python-dev
+    - pip3 install flask
+    - pip3 install requests
+    - cd src
+    - python3 test.py
+
+docker:
+  stage: docker
+  tags:
+    - shell
+  script:
+    - docker login registry.hal.davecutting.uk -u $username -p $password
+    - docker build -t registry.hal.davecutting.uk/40173800/webcalc-divide .
+    - docker push registry.hal.davecutting.uk/40173800/webcalc-divide

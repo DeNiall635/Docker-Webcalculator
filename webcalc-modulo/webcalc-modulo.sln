@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webcalc-modulo", "webcalc-modulo\webcalc-modulo\webcalc-modulo.csproj", "{9334CD37-D284-4BC0-B366-A50C8E9D6012}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webcalc-moduloTest", "webcalc-modulo\webcalc-moduloTest\webcalc-moduloTest.csproj", "{32A5D304-98BB-4A0A-91FC-47C7EC7FC9F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9334CD37-D284-4BC0-B366-A50C8E9D6012} = {9334CD37-D284-4BC0-B366-A50C8E9D6012}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9334CD37-D284-4BC0-B366-A50C8E9D6012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9334CD37-D284-4BC0-B366-A50C8E9D6012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9334CD37-D284-4BC0-B366-A50C8E9D6012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9334CD37-D284-4BC0-B366-A50C8E9D6012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32A5D304-98BB-4A0A-91FC-47C7EC7FC9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A5D304-98BB-4A0A-91FC-47C7EC7FC9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A5D304-98BB-4A0A-91FC-47C7EC7FC9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A5D304-98BB-4A0A-91FC-47C7EC7FC9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4084952A-099C-4758-9F98-64D0252BAE46}
+	EndGlobalSection
+EndGlobal

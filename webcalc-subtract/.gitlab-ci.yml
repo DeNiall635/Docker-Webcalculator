@@ -1,0 +1,35 @@
+image: node:10
+
+stages:
+  - build
+  - test
+  - docker
+
+cache:
+  paths:
+    - node_modules/
+
+install_dependencies:
+  stage: build
+  script:
+    - npm install
+    - npm install request
+  artifacts:
+    paths:
+      - node_modules/
+
+testing:
+  stage: test
+  script: 
+    - npm start
+    - npm test
+
+docker:
+  stage: docker
+  tags:
+    - shell
+  script:
+    - docker login registry.hal.davecutting.uk -u $username -p $password
+    - docker build -t registry.hal.davecutting.uk/40173800/webcalc-subtract .
+    - docker push registry.hal.davecutting.uk/40173800/webcalc-subtract
+

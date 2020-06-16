@@ -1,0 +1,60 @@
+All results
+[12:23:08.277343] For 2add1 the expected answer was 3 and the answer recieved was 3. The response was Correct and took 0.03318285942077637 seconds
+
+[12:23:08.302636] For 5add6 the expected answer was 11 and the answer recieved was 11. The response was Correct and took 0.024355173110961914 seconds
+
+[12:23:08.318484] For 0add7 the expected answer was 7 and the answer recieved was 7. The response was Correct and took 0.015636682510375977 seconds
+
+[12:23:08.337546] For 0add7 the expected answer was 7 and the answer recieved was 7. The response was Correct and took 0.018872499465942383 seconds
+
+[12:23:08.354118] For 6add5 the expected answer was 11 and the answer recieved was 11. The response was Correct and took 0.016402006149291992 seconds
+
+[12:23:08.374947] For 8sub9 the expected answer was -1 and the answer recieved was -1. The response was Correct and took 0.020650386810302734 seconds
+
+[12:23:08.446600] For 4sub1 the expected answer was 3 and the answer recieved was 3. The response was Correct and took 0.07138609886169434 seconds
+
+[12:23:08.526461] For 3sub2 the expected answer was 1 and the answer recieved was 1. The response was Correct and took 0.07899761199951172 seconds
+
+[12:23:08.567658] For 9sub0 the expected answer was 9 and the answer recieved was 9. The response was Correct and took 0.04085588455200195 seconds
+
+[12:23:08.597843] For 3sub4 the expected answer was -1 and the answer recieved was -1. The response was Correct and took 0.02998805046081543 seconds
+
+[12:23:08.633359] For 9div4 the expected answer was 2 and the answer recieved was 2. The response was Correct and took 0.03534364700317383 seconds
+
+[12:23:08.656375] For 2div9 the expected answer was 0 and the answer recieved was 0. The response was Correct and took 0.022821903228759766 seconds
+
+[12:23:08.680144] For 0div5 the expected answer was 0 and the answer recieved was 0. The response was Correct and took 0.023556232452392578 seconds
+
+[12:23:08.702258] For 4div8 the expected answer was 0 and the answer recieved was 0. The response was Correct and took 0.021881580352783203 seconds
+
+[12:23:08.725607] For 9div8 the expected answer was 1 and the answer recieved was 1. The response was Correct and took 0.02314925193786621 seconds
+
+[12:23:08.794865] For 0mul7 the expected answer was 0 and the answer recieved was 0. The response was Correct and took 0.06902050971984863 seconds
+
+[12:23:08.818825] For 6mul4 the expected answer was 24 and the answer recieved was 24. The response was Correct and took 0.023583650588989258 seconds
+
+[12:23:08.864832] For 5mul0 the expected answer was 0 and the answer recieved was 0. The response was Correct and took 0.04575538635253906 seconds
+
+[12:23:08.882031] For 3mul9 the expected answer was 27 and the answer recieved was 27. The response was Correct and took 0.017052412033081055 seconds
+
+[12:23:08.913084] For 9mul0 the expected answer was 0 and the answer recieved was 0. The response was Correct and took 0.030881404876708984 seconds
+
+[12:23:08.950618] For 2mod7 the expected answer was 2 and the answer recieved was 2. The response was Correct and took 0.03734993934631348 seconds
+
+[12:23:08.983171] For 9mod7 the expected answer was 2 and the answer recieved was 2. The response was Correct and took 0.03239870071411133 seconds
+
+[12:23:09.018567] For 9mod5 the expected answer was 4 and the answer recieved was 4. The response was Correct and took 0.035173892974853516 seconds
+
+[12:23:09.049440] For 7mod6 the expected answer was 1 and the answer recieved was 1. The response was Correct and took 0.030727863311767578 seconds
+
+[12:23:09.095492] For 2mod5 the expected answer was 2 and the answer recieved was 2. The response was Correct and took 0.04590010643005371 seconds
+
+[12:23:09.207639] For 4sqr0 the expected answer was 16 and the answer recieved was 16. The response was Correct and took 0.11193656921386719 seconds
+
+[12:23:09.244361] For 9sqr5 the expected answer was 81 and the answer recieved was 81. The response was Correct and took 0.036459922790527344 seconds
+
+[12:23:09.323028] For 4sqr8 the expected answer was 16 and the answer recieved was 16. The response was Correct and took 0.07837462425231934 seconds
+
+[12:23:09.359116] For 1sqr0 the expected answer was 1 and the answer recieved was 1. The response was Correct and took 0.03573489189147949 seconds
+
+[12:23:09.412497] For 5sqr7 the expected answer was 25 and the answer recieved was 25. The response was Correct and took 0.05314445495605469 seconds

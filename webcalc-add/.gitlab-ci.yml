@@ -1,0 +1,30 @@
+#image: php:7.2
+
+#test:app:
+#  script:
+#  - php src/test.php
+
+image: ubuntu:18.04
+
+stages:
+    - test
+    - docker
+    
+test:
+    stage: test
+    script:
+    - apt-get update -y
+    - apt-get install -y php7.2-cli
+    - apt-get install -y php-curl
+    - cd src
+    - nohup php -S localhost:8080 &
+    - php test.php
+
+docker:
+  stage: docker
+  tags:
+    - shell
+  script:
+    - docker login registry.hal.davecutting.uk -u $username -p $password
+    - docker build -t registry.hal.davecutting.uk/40173800/webcalc-add .
+    - docker push registry.hal.davecutting.uk/40173800/webcalc-add

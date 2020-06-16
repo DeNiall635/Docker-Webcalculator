@@ -1,0 +1,12 @@
+stages:
+  - docker
+
+docker:
+  stage: docker
+  tags:
+    - shell
+  script:
+    - docker build -t webcalc-frontend .
+    - docker login registry.hal.davecutting.uk -u $username -p $password
+    - docker build -t registry.hal.davecutting.uk/40173800/webcalc-frontend .
+    - docker push registry.hal.davecutting.uk/40173800/webcalc-frontend
